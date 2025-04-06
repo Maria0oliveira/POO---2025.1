@@ -9,5 +9,5 @@ tipo = string (input("Digite o tipo de cozinha:"))
 
 print(restaurante1.descrever_nomeRestaurante())
 print(restaurante2.descrever_restaurante())
-print(restaurante2.descrever_restaurante())
+print(restaurante3.descrever_restaurante())
 
