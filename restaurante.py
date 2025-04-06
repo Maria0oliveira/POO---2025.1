@@ -11,6 +11,6 @@ class Restaurante:
     def abriRestaurante(self):
     print (f"O Restaurante {self.nomeRestaurante} de cozinha {self.tipoCozinha} está aberto agora!")
 
-restaurante1 = restaurante1()
-restaurante2 = restaurante2()
-restaurante3 = restaurante3()
+    def __str__ (self):
+        return (f"Nome:{self.nomeRestaurante}"
+                f"Tipo:{self.tipoCozinha}")
