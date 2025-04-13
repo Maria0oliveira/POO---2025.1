@@ -18,13 +18,31 @@ class Conta:
     def get_dataAbertura(self):
         return self.dataAbertura
     def set_dataAbertura (self, dataAbertura):
-        self.dataAbertura
+        self.dataAbertura = dataAbertura
 
     def get_saldo(self):
         return self.saldo
     def set_saldo (self,saldo):
         self.saldo =saldo
     
+    def consultarSaldo(self):
+        return self.consultarSaldo
+    
+    def get_depositar(self):
+        return self.depositar 
+    def set_depositar (self, depositar):
+        self.depositar = depositar
+    
+    def get_sacar(self):
+        return self.sacar 
+    def set_sacar (self, sacar):
+        self.sacar = sacar
+    
+    def get_transferir(self):
+        return self.transferir
+    def set_transferir (self, transferir):
+        self.transferir = transferir
+        
     def __str__ (self):
         return (f"Agencia:{self.agencia}"
                 f"Usuario:{self.usuario}"
